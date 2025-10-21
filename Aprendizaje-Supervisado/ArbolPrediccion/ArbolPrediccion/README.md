@@ -2,23 +2,10 @@
 
 Este proyecto implementa un modelo de **árbol de decisión** para predecir el riesgo de abandono académico de estudiantes, utilizando datos institucionales. Consta de dos scripts complementarios que realizan el entrenamiento del modelo y la generación de predicciones finales.
 
-
-## Estructura del proyecto
-
-Proyecto_Arbol_Prediccion/
-│
-├── ArbolEntrenamiento.py
-├── ArbolFinal.py
-├── TablaPrediccionAbandono-Entrenamiento.xlsx
-├── TablaPrediccionAbandono-DatosFinal.xlsx
-└── Predicciones_Final.xlsx  # (se genera al ejecutar ArbolFinal.py)
-
-
 ## Requisitos
 
 Antes de ejecutar los scripts, asegurate de tener instaladas las siguientes librerías de Python:
     pip install pandas matplotlib seaborn scikit-learn openpyxl
-
 
 ## Descripción de los scripts
 
@@ -68,5 +55,6 @@ Ejecutar los scripts desde la consola o un entorno como VSCode o Anaconda Prompt
 
     python ArbolEntrenamiento.py
     python ArbolFinal.py
+
 
 Los gráficos se mostrarán automáticamente y el archivo `Predicciones_Final.xlsx` se generará en la misma carpeta.
